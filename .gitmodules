@@ -1,0 +1,3 @@
+[submodule "models/EasyOCR"]
+	path = models/EasyOCR
+	url = git@github.com:JaidedAI/EasyOCR.git
