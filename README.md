@@ -3,8 +3,12 @@ Experimenting with popular OCR tools, with apple-ocr as the reference for perfor
 
 ### Models
 - apple-ocr [docs](https://developer.apple.com/documentation/vision/) [wrapper1](https://github.com/louisbrulenaudet/apple-ocr/tree/main) [wrapper2](https://github.com/straussmaximilian/ocrmac/tree/main)
+    - Wrapper around apple ocr, see `/models/apple-ocr`, can only be run on apple computers.
 - Easy-OCR [repo](https://github.com/JaidedAI/EasyOCR)
-- (In Progress) pytesseract [pip](https://pypi.org/project/pytesseract/) [tesseract](https://github.com/tesseract-ocr/tesseract)
+    - Install `easyocr` python package.
+- pytesseract [pip](https://pypi.org/project/pytesseract/) [tesseract](https://github.com/tesseract-ocr/tesseract)
+    - Install `pytesseract` python package. Note this is only a wrapper.
+    - `brew install tesseract` for the actual tool, the `pytesseract` wrapper will invoke this tool.
 - (TODO) Idefics2 [article](https://huggingface.co/blog/idefics2)
 
 
