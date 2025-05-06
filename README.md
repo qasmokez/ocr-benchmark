@@ -22,8 +22,8 @@ https://github.com/getomni-ai/benchmark
 Example benchmark output so far:
 ```
 =========== apple-ocr ===========
-Setup Time: 3.314018249511719e-05
-Runtime: 0.6097888946533203
+Setup Time: 1.7881393432617188e-05
+Runtime: 0.6121931076049805
 ---- Output ----
 0            Staff Shift Schedule
 1    Fort Bradlv Medical Center -
@@ -38,17 +38,35 @@ Runtime: 0.6097888946533203
 Name: text, dtype: object
 
 =========== easy-ocr ===========
-Setup Time: 2.3394429683685303
-Runtime: 6.487469911575317
+Setup Time: 2.2657580375671387
+Runtime: 5.501737833023071
 ---- Output ----
 0          Staff Shift Schedule
 1                          Fort
 2         Bradly Medical Center
 3    Week of September 27, 2025
 4                      Employee
-...
+5                            ID
+6                    Department
+7                        Sat 27
 8                        Sun 28
 9                        Mon 29
+Name: text, dtype: object
+
+=========== tesseract-ocr ===========
+Setup Time: N/A
+Runtime: 2.8764097690582275
+---- Output ----
+0            
+1            
+2            
+3            
+4       Staff
+5       Shift
+6    Schedule
+7            
+8            
+9            
 Name: text, dtype: object
 ```
 
